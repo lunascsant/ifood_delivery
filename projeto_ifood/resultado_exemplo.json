@@ -1,0 +1,2516 @@
+{
+  "valor_objetivo": 36221.882628907326,
+  "tempo_total": 18551.541933398,
+  "tempo_medio": 74.206167733592,
+  "alocacoes": [
+    {
+      "entregador_id": "E001",
+      "entregador_idx": 0,
+      "pedido_id": "35",
+      "pedido_idx": 34,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "2",
+      "valor_pedido": 131.45,
+      "tempo_entrega": 42.114430891
+    },
+    {
+      "entregador_id": "E001",
+      "entregador_idx": 0,
+      "pedido_id": "86",
+      "pedido_idx": 85,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "1",
+      "valor_pedido": 42.01,
+      "tempo_entrega": 76.8949186959
+    },
+    {
+      "entregador_id": "E002",
+      "entregador_idx": 1,
+      "pedido_id": "21",
+      "pedido_idx": 20,
+      "restaurante": "Parmegiana Crocante",
+      "prioridade": "3",
+      "valor_pedido": 25.94,
+      "tempo_entrega": 44.1314102531
+    },
+    {
+      "entregador_id": "E002",
+      "entregador_idx": 1,
+      "pedido_id": "122",
+      "pedido_idx": 121,
+      "restaurante": "Bar do Gaúcho Parrillaria",
+      "prioridade": "2",
+      "valor_pedido": 103.15,
+      "tempo_entrega": 49.2307692308
+    },
+    {
+      "entregador_id": "E002",
+      "entregador_idx": 1,
+      "pedido_id": "136",
+      "pedido_idx": 135,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "2",
+      "valor_pedido": 132.44,
+      "tempo_entrega": 61.7115384615
+    },
+    {
+      "entregador_id": "E002",
+      "entregador_idx": 1,
+      "pedido_id": "165",
+      "pedido_idx": 164,
+      "restaurante": "Açaí da Hora",
+      "prioridade": "3",
+      "valor_pedido": 119.98,
+      "tempo_entrega": 52.0756410223
+    },
+    {
+      "entregador_id": "E002",
+      "entregador_idx": 1,
+      "pedido_id": "203",
+      "pedido_idx": 202,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "1",
+      "valor_pedido": 71.02,
+      "tempo_entrega": 80.99166667
+    },
+    {
+      "entregador_id": "E003",
+      "entregador_idx": 2,
+      "pedido_id": "147",
+      "pedido_idx": 146,
+      "restaurante": "Confetalle",
+      "prioridade": "3",
+      "valor_pedido": 145.36,
+      "tempo_entrega": 45.0800291545
+    },
+    {
+      "entregador_id": "E003",
+      "entregador_idx": 2,
+      "pedido_id": "231",
+      "pedido_idx": 230,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "2",
+      "valor_pedido": 40.89,
+      "tempo_entrega": 52.9893586006
+    },
+    {
+      "entregador_id": "E003",
+      "entregador_idx": 2,
+      "pedido_id": "241",
+      "pedido_idx": 240,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "3",
+      "valor_pedido": 97.33,
+      "tempo_entrega": 36.5488338192
+    },
+    {
+      "entregador_id": "E004",
+      "entregador_idx": 3,
+      "pedido_id": "67",
+      "pedido_idx": 66,
+      "restaurante": "Breguet's Bão Pizzaria Delivery",
+      "prioridade": "3",
+      "valor_pedido": 95.01,
+      "tempo_entrega": 50.9697278945
+    },
+    {
+      "entregador_id": "E004",
+      "entregador_idx": 3,
+      "pedido_id": "177",
+      "pedido_idx": 176,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "3",
+      "valor_pedido": 135.76,
+      "tempo_entrega": 50.9013605476
+    },
+    {
+      "entregador_id": "E005",
+      "entregador_idx": 4,
+      "pedido_id": "89",
+      "pedido_idx": 88,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "1",
+      "valor_pedido": 75.49,
+      "tempo_entrega": 68.7863468635
+    },
+    {
+      "entregador_id": "E005",
+      "entregador_idx": 4,
+      "pedido_id": "152",
+      "pedido_idx": 151,
+      "restaurante": "Kfc - Shopping Jardim Norte",
+      "prioridade": "3",
+      "valor_pedido": 31.4,
+      "tempo_entrega": 36.514329643
+    },
+    {
+      "entregador_id": "E005",
+      "entregador_idx": 4,
+      "pedido_id": "237",
+      "pedido_idx": 236,
+      "restaurante": "Angu Mineiro*Restaurante Comida Caseira*",
+      "prioridade": "3",
+      "valor_pedido": 108.3,
+      "tempo_entrega": 35.9139606363
+    },
+    {
+      "entregador_id": "E006",
+      "entregador_idx": 5,
+      "pedido_id": "139",
+      "pedido_idx": 138,
+      "restaurante": "O Que Comer, Fernando?",
+      "prioridade": "3",
+      "valor_pedido": 36.97,
+      "tempo_entrega": 39.2607142857
+    },
+    {
+      "entregador_id": "E006",
+      "entregador_idx": 5,
+      "pedido_id": "149",
+      "pedido_idx": 148,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "2",
+      "valor_pedido": 129.13,
+      "tempo_entrega": 44.0517857143
+    },
+    {
+      "entregador_id": "E007",
+      "entregador_idx": 6,
+      "pedido_id": "124",
+      "pedido_idx": 123,
+      "restaurante": "Marmita Top",
+      "prioridade": "1",
+      "valor_pedido": 32.09,
+      "tempo_entrega": 33.8903954806
+    },
+    {
+      "entregador_id": "E007",
+      "entregador_idx": 6,
+      "pedido_id": "180",
+      "pedido_idx": 179,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "3",
+      "valor_pedido": 61.01,
+      "tempo_entrega": 15.9384180788
+    },
+    {
+      "entregador_id": "E007",
+      "entregador_idx": 6,
+      "pedido_id": "196",
+      "pedido_idx": 195,
+      "restaurante": "Mcdonald's - Batista de Oliveira",
+      "prioridade": "1",
+      "valor_pedido": 29.52,
+      "tempo_entrega": 43.1220338983
+    },
+    {
+      "entregador_id": "E007",
+      "entregador_idx": 6,
+      "pedido_id": "212",
+      "pedido_idx": 211,
+      "restaurante": "Brasileirinho Delivery",
+      "prioridade": "2",
+      "valor_pedido": 145.82,
+      "tempo_entrega": 32.5946327687
+    },
+    {
+      "entregador_id": "E008",
+      "entregador_idx": 7,
+      "pedido_id": "28",
+      "pedido_idx": 27,
+      "restaurante": "Chic Frangos",
+      "prioridade": "2",
+      "valor_pedido": 130.62,
+      "tempo_entrega": 42.3329615828
+    },
+    {
+      "entregador_id": "E008",
+      "entregador_idx": 7,
+      "pedido_id": "195",
+      "pedido_idx": 194,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "1",
+      "valor_pedido": 136.54,
+      "tempo_entrega": 65.5283147426
+    },
+    {
+      "entregador_id": "E008",
+      "entregador_idx": 7,
+      "pedido_id": "208",
+      "pedido_idx": 207,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "1",
+      "valor_pedido": 49.03,
+      "tempo_entrega": 68.2898389062
+    },
+    {
+      "entregador_id": "E010",
+      "entregador_idx": 9,
+      "pedido_id": "204",
+      "pedido_idx": 203,
+      "restaurante": "Tempero do Dia",
+      "prioridade": "1",
+      "valor_pedido": 149.69,
+      "tempo_entrega": 72.8394136808
+    },
+    {
+      "entregador_id": "E012",
+      "entregador_idx": 11,
+      "pedido_id": "115",
+      "pedido_idx": 114,
+      "restaurante": "Restaurante e Pizzaria Dona Dora",
+      "prioridade": "2",
+      "valor_pedido": 49.94,
+      "tempo_entrega": 50.360481103
+    },
+    {
+      "entregador_id": "E012",
+      "entregador_idx": 11,
+      "pedido_id": "145",
+      "pedido_idx": 144,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "3",
+      "valor_pedido": 54.13,
+      "tempo_entrega": 47.4730240516
+    },
+    {
+      "entregador_id": "E012",
+      "entregador_idx": 11,
+      "pedido_id": "155",
+      "pedido_idx": 154,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "1",
+      "valor_pedido": 109.9,
+      "tempo_entrega": 74.6713058453
+    },
+    {
+      "entregador_id": "E012",
+      "entregador_idx": 11,
+      "pedido_id": "229",
+      "pedido_idx": 228,
+      "restaurante": "Juju Caldos e Massas",
+      "prioridade": "2",
+      "valor_pedido": 59.0,
+      "tempo_entrega": 52.6632302372
+    },
+    {
+      "entregador_id": "E013",
+      "entregador_idx": 12,
+      "pedido_id": "53",
+      "pedido_idx": 52,
+      "restaurante": "Breguet's Bão Pizzaria Delivery",
+      "prioridade": "3",
+      "valor_pedido": 82.88,
+      "tempo_entrega": 27.735154062
+    },
+    {
+      "entregador_id": "E013",
+      "entregador_idx": 12,
+      "pedido_id": "112",
+      "pedido_idx": 111,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "1",
+      "valor_pedido": 140.2,
+      "tempo_entrega": 29.6691876754
+    },
+    {
+      "entregador_id": "E013",
+      "entregador_idx": 12,
+      "pedido_id": "117",
+      "pedido_idx": 116,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "1",
+      "valor_pedido": 37.95,
+      "tempo_entrega": 34.9025210084
+    },
+    {
+      "entregador_id": "E013",
+      "entregador_idx": 12,
+      "pedido_id": "132",
+      "pedido_idx": 131,
+      "restaurante": "Sayo Sushi",
+      "prioridade": "1",
+      "valor_pedido": 109.44,
+      "tempo_entrega": 39.8450980359
+    },
+    {
+      "entregador_id": "E013",
+      "entregador_idx": 12,
+      "pedido_id": "174",
+      "pedido_idx": 173,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "2",
+      "valor_pedido": 63.46,
+      "tempo_entrega": 35.6350140053
+    },
+    {
+      "entregador_id": "E014",
+      "entregador_idx": 13,
+      "pedido_id": "70",
+      "pedido_idx": 69,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "3",
+      "valor_pedido": 115.34,
+      "tempo_entrega": 41.4792134831
+    },
+    {
+      "entregador_id": "E014",
+      "entregador_idx": 13,
+      "pedido_id": "171",
+      "pedido_idx": 170,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "1",
+      "valor_pedido": 64.08,
+      "tempo_entrega": 65.4031835239
+    },
+    {
+      "entregador_id": "E014",
+      "entregador_idx": 13,
+      "pedido_id": "172",
+      "pedido_idx": 171,
+      "restaurante": "Santa Filomena Restaurante",
+      "prioridade": "3",
+      "valor_pedido": 104.35,
+      "tempo_entrega": 32.6741573034
+    },
+    {
+      "entregador_id": "E015",
+      "entregador_idx": 14,
+      "pedido_id": "81",
+      "pedido_idx": 80,
+      "restaurante": "Confetalle",
+      "prioridade": "2",
+      "valor_pedido": 33.37,
+      "tempo_entrega": 32.7090330792
+    },
+    {
+      "entregador_id": "E015",
+      "entregador_idx": 14,
+      "pedido_id": "102",
+      "pedido_idx": 101,
+      "restaurante": "Breguet's Bão Pizzaria Delivery",
+      "prioridade": "1",
+      "valor_pedido": 118.27,
+      "tempo_entrega": 55.7535623376
+    },
+    {
+      "entregador_id": "E015",
+      "entregador_idx": 14,
+      "pedido_id": "134",
+      "pedido_idx": 133,
+      "restaurante": "Deliciarte Confeitaria Artesanal",
+      "prioridade": "1",
+      "valor_pedido": 76.1,
+      "tempo_entrega": 62.9910941509
+    },
+    {
+      "entregador_id": "E015",
+      "entregador_idx": 14,
+      "pedido_id": "249",
+      "pedido_idx": 248,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "3",
+      "valor_pedido": 78.0,
+      "tempo_entrega": 36.2124681937
+    },
+    {
+      "entregador_id": "E016",
+      "entregador_idx": 15,
+      "pedido_id": "63",
+      "pedido_idx": 62,
+      "restaurante": "Arroz.com",
+      "prioridade": "2",
+      "valor_pedido": 87.71,
+      "tempo_entrega": 82.248226947
+    },
+    {
+      "entregador_id": "E016",
+      "entregador_idx": 15,
+      "pedido_id": "105",
+      "pedido_idx": 104,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "2",
+      "valor_pedido": 66.45,
+      "tempo_entrega": 81.2735815636
+    },
+    {
+      "entregador_id": "E016",
+      "entregador_idx": 15,
+      "pedido_id": "133",
+      "pedido_idx": 132,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "2",
+      "valor_pedido": 127.51,
+      "tempo_entrega": 66.3985815636
+    },
+    {
+      "entregador_id": "E016",
+      "entregador_idx": 15,
+      "pedido_id": "138",
+      "pedido_idx": 137,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "3",
+      "valor_pedido": 89.02,
+      "tempo_entrega": 56.456560287
+    },
+    {
+      "entregador_id": "E016",
+      "entregador_idx": 15,
+      "pedido_id": "206",
+      "pedido_idx": 205,
+      "restaurante": "Açaí da Hora",
+      "prioridade": "2",
+      "valor_pedido": 141.73,
+      "tempo_entrega": 81.6021276596
+    },
+    {
+      "entregador_id": "E017",
+      "entregador_idx": 16,
+      "pedido_id": "14",
+      "pedido_idx": 13,
+      "restaurante": "Tempero do Dia",
+      "prioridade": "3",
+      "valor_pedido": 45.95,
+      "tempo_entrega": 40.248816568
+    },
+    {
+      "entregador_id": "E017",
+      "entregador_idx": 16,
+      "pedido_id": "44",
+      "pedido_idx": 43,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "1",
+      "valor_pedido": 56.53,
+      "tempo_entrega": 93.0698224852
+    },
+    {
+      "entregador_id": "E017",
+      "entregador_idx": 16,
+      "pedido_id": "140",
+      "pedido_idx": 139,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "2",
+      "valor_pedido": 145.1,
+      "tempo_entrega": 54.1874753418
+    },
+    {
+      "entregador_id": "E018",
+      "entregador_idx": 17,
+      "pedido_id": "144",
+      "pedido_idx": 143,
+      "restaurante": "Saladeria Express",
+      "prioridade": "2",
+      "valor_pedido": 105.18,
+      "tempo_entrega": 44.1164634146
+    },
+    {
+      "entregador_id": "E019",
+      "entregador_idx": 18,
+      "pedido_id": "20",
+      "pedido_idx": 19,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "1",
+      "valor_pedido": 63.53,
+      "tempo_entrega": 17.2979885054
+    },
+    {
+      "entregador_id": "E019",
+      "entregador_idx": 18,
+      "pedido_id": "94",
+      "pedido_idx": 93,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "1",
+      "valor_pedido": 119.51,
+      "tempo_entrega": 29.583333333
+    },
+    {
+      "entregador_id": "E019",
+      "entregador_idx": 18,
+      "pedido_id": "135",
+      "pedido_idx": 134,
+      "restaurante": "Sabor a Mais",
+      "prioridade": "1",
+      "valor_pedido": 140.97,
+      "tempo_entrega": 28.2137931034
+    },
+    {
+      "entregador_id": "E020",
+      "entregador_idx": 19,
+      "pedido_id": "73",
+      "pedido_idx": 72,
+      "restaurante": "Santa Filomena Restaurante",
+      "prioridade": "1",
+      "valor_pedido": 122.34,
+      "tempo_entrega": 45.0081604459
+    },
+    {
+      "entregador_id": "E020",
+      "entregador_idx": 19,
+      "pedido_id": "207",
+      "pedido_idx": 206,
+      "restaurante": "We Cafe",
+      "prioridade": "1",
+      "valor_pedido": 117.93,
+      "tempo_entrega": 42.8493084337
+    },
+    {
+      "entregador_id": "E020",
+      "entregador_idx": 19,
+      "pedido_id": "210",
+      "pedido_idx": 209,
+      "restaurante": "A La Bia - Confeitaria",
+      "prioridade": "1",
+      "valor_pedido": 61.34,
+      "tempo_entrega": 38.0867911513
+    },
+    {
+      "entregador_id": "E021",
+      "entregador_idx": 20,
+      "pedido_id": "78",
+      "pedido_idx": 77,
+      "restaurante": "Planet Churros",
+      "prioridade": "1",
+      "valor_pedido": 102.38,
+      "tempo_entrega": 47.01083333
+    },
+    {
+      "entregador_id": "E021",
+      "entregador_idx": 20,
+      "pedido_id": "87",
+      "pedido_idx": 86,
+      "restaurante": "Bob´s - Jardim Norte",
+      "prioridade": "1",
+      "valor_pedido": 34.24,
+      "tempo_entrega": 31.71666667
+    },
+    {
+      "entregador_id": "E021",
+      "entregador_idx": 20,
+      "pedido_id": "98",
+      "pedido_idx": 97,
+      "restaurante": "Restaurante na Brasa Almoço & Marmitex",
+      "prioridade": "1",
+      "valor_pedido": 26.55,
+      "tempo_entrega": 48.18333333
+    },
+    {
+      "entregador_id": "E022",
+      "entregador_idx": 21,
+      "pedido_id": "85",
+      "pedido_idx": 84,
+      "restaurante": "Confetalle",
+      "prioridade": "3",
+      "valor_pedido": 52.34,
+      "tempo_entrega": 68.51145833
+    },
+    {
+      "entregador_id": "E022",
+      "entregador_idx": 21,
+      "pedido_id": "101",
+      "pedido_idx": 100,
+      "restaurante": "Deliciarte Confeitaria Artesanal",
+      "prioridade": "3",
+      "valor_pedido": 149.03,
+      "tempo_entrega": 75.65989583
+    },
+    {
+      "entregador_id": "E022",
+      "entregador_idx": 21,
+      "pedido_id": "242",
+      "pedido_idx": 241,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "3",
+      "valor_pedido": 133.11,
+      "tempo_entrega": 62.70885417
+    },
+    {
+      "entregador_id": "E023",
+      "entregador_idx": 22,
+      "pedido_id": "32",
+      "pedido_idx": 31,
+      "restaurante": "Sabor a Mais",
+      "prioridade": "1",
+      "valor_pedido": 113.53,
+      "tempo_entrega": 60.5285800274
+    },
+    {
+      "entregador_id": "E023",
+      "entregador_idx": 22,
+      "pedido_id": "146",
+      "pedido_idx": 145,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "3",
+      "valor_pedido": 82.63,
+      "tempo_entrega": 34.2345367061
+    },
+    {
+      "entregador_id": "E023",
+      "entregador_idx": 22,
+      "pedido_id": "151",
+      "pedido_idx": 150,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "2",
+      "valor_pedido": 115.21,
+      "tempo_entrega": 39.8368231047
+    },
+    {
+      "entregador_id": "E023",
+      "entregador_idx": 22,
+      "pedido_id": "154",
+      "pedido_idx": 153,
+      "restaurante": "Totonho Sao Mateus",
+      "prioridade": "2",
+      "valor_pedido": 45.61,
+      "tempo_entrega": 38.9817689531
+    },
+    {
+      "entregador_id": "E023",
+      "entregador_idx": 22,
+      "pedido_id": "235",
+      "pedido_idx": 234,
+      "restaurante": "Dadu Doces Confeitaria",
+      "prioridade": "3",
+      "valor_pedido": 22.77,
+      "tempo_entrega": 35.392298439
+    },
+    {
+      "entregador_id": "E024",
+      "entregador_idx": 23,
+      "pedido_id": "214",
+      "pedido_idx": 213,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "3",
+      "valor_pedido": 106.5,
+      "tempo_entrega": 50.3723323924
+    },
+    {
+      "entregador_id": "E024",
+      "entregador_idx": 23,
+      "pedido_id": "243",
+      "pedido_idx": 242,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "2",
+      "valor_pedido": 104.28,
+      "tempo_entrega": 74.2528328612
+    },
+    {
+      "entregador_id": "E024",
+      "entregador_idx": 23,
+      "pedido_id": "247",
+      "pedido_idx": 246,
+      "restaurante": "We Cafe",
+      "prioridade": "2",
+      "valor_pedido": 80.39,
+      "tempo_entrega": 74.9567516558
+    },
+    {
+      "entregador_id": "E025",
+      "entregador_idx": 24,
+      "pedido_id": "82",
+      "pedido_idx": 81,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "1",
+      "valor_pedido": 29.74,
+      "tempo_entrega": 88.3715976331
+    },
+    {
+      "entregador_id": "E025",
+      "entregador_idx": 24,
+      "pedido_id": "236",
+      "pedido_idx": 235,
+      "restaurante": "Piratas Lanches",
+      "prioridade": "3",
+      "valor_pedido": 72.98,
+      "tempo_entrega": 43.9258382676
+    },
+    {
+      "entregador_id": "E026",
+      "entregador_idx": 25,
+      "pedido_id": "17",
+      "pedido_idx": 16,
+      "restaurante": "Angu Mineiro*Restaurante Comida Caseira*",
+      "prioridade": "3",
+      "valor_pedido": 49.83,
+      "tempo_entrega": 53.8481981982
+    },
+    {
+      "entregador_id": "E026",
+      "entregador_idx": 25,
+      "pedido_id": "119",
+      "pedido_idx": 118,
+      "restaurante": "Dadu Doces Confeitaria",
+      "prioridade": "3",
+      "valor_pedido": 127.57,
+      "tempo_entrega": 53.4549549516
+    },
+    {
+      "entregador_id": "E026",
+      "entregador_idx": 25,
+      "pedido_id": "227",
+      "pedido_idx": 226,
+      "restaurante": "Bar do Gaúcho Parrillaria",
+      "prioridade": "2",
+      "valor_pedido": 64.69,
+      "tempo_entrega": 56.7630630664
+    },
+    {
+      "entregador_id": "E027",
+      "entregador_idx": 26,
+      "pedido_id": "245",
+      "pedido_idx": 244,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "3",
+      "valor_pedido": 78.36,
+      "tempo_entrega": 84.8910256377
+    },
+    {
+      "entregador_id": "E028",
+      "entregador_idx": 27,
+      "pedido_id": "34",
+      "pedido_idx": 33,
+      "restaurante": "Juju Caldos e Massas",
+      "prioridade": "2",
+      "valor_pedido": 20.05,
+      "tempo_entrega": 30.8744360902
+    },
+    {
+      "entregador_id": "E028",
+      "entregador_idx": 27,
+      "pedido_id": "127",
+      "pedido_idx": 126,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "1",
+      "valor_pedido": 27.47,
+      "tempo_entrega": 59.5293233083
+    },
+    {
+      "entregador_id": "E028",
+      "entregador_idx": 27,
+      "pedido_id": "240",
+      "pedido_idx": 239,
+      "restaurante": "Bar do Gaúcho Parrillaria",
+      "prioridade": "1",
+      "valor_pedido": 91.65,
+      "tempo_entrega": 62.879072685
+    },
+    {
+      "entregador_id": "E028",
+      "entregador_idx": 27,
+      "pedido_id": "248",
+      "pedido_idx": 247,
+      "restaurante": "Mcdonald's - Batista de Oliveira",
+      "prioridade": "3",
+      "valor_pedido": 29.64,
+      "tempo_entrega": 34.8527568926
+    },
+    {
+      "entregador_id": "E029",
+      "entregador_idx": 28,
+      "pedido_id": "54",
+      "pedido_idx": 53,
+      "restaurante": "Angu Mineiro*Restaurante Comida Caseira*",
+      "prioridade": "2",
+      "valor_pedido": 67.81,
+      "tempo_entrega": 62.8699502521
+    },
+    {
+      "entregador_id": "E030",
+      "entregador_idx": 29,
+      "pedido_id": "66",
+      "pedido_idx": 65,
+      "restaurante": "Mcdonald's - Batista de Oliveira",
+      "prioridade": "1",
+      "valor_pedido": 126.73,
+      "tempo_entrega": 28.771888412
+    },
+    {
+      "entregador_id": "E030",
+      "entregador_idx": 29,
+      "pedido_id": "192",
+      "pedido_idx": 191,
+      "restaurante": "China in Box - Juiz de Fora",
+      "prioridade": "1",
+      "valor_pedido": 33.41,
+      "tempo_entrega": 36.7124463519
+    },
+    {
+      "entregador_id": "E031",
+      "entregador_idx": 30,
+      "pedido_id": "77",
+      "pedido_idx": 76,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "2",
+      "valor_pedido": 66.27,
+      "tempo_entrega": 36.210040161
+    },
+    {
+      "entregador_id": "E031",
+      "entregador_idx": 30,
+      "pedido_id": "215",
+      "pedido_idx": 214,
+      "restaurante": "Breguet's Bão Pizzaria Delivery",
+      "prioridade": "2",
+      "valor_pedido": 40.52,
+      "tempo_entrega": 36.8773092366
+    },
+    {
+      "entregador_id": "E033",
+      "entregador_idx": 32,
+      "pedido_id": "100",
+      "pedido_idx": 99,
+      "restaurante": "Angu Mineiro*Restaurante Comida Caseira*",
+      "prioridade": "2",
+      "valor_pedido": 141.44,
+      "tempo_entrega": 47.2667832168
+    },
+    {
+      "entregador_id": "E035",
+      "entregador_idx": 34,
+      "pedido_id": "59",
+      "pedido_idx": 58,
+      "restaurante": "Aladim esfiharia e Lanchonete",
+      "prioridade": "1",
+      "valor_pedido": 127.66,
+      "tempo_entrega": 1081.98231289
+    },
+    {
+      "entregador_id": "E035",
+      "entregador_idx": 34,
+      "pedido_id": "169",
+      "pedido_idx": 168,
+      "restaurante": "Churrascaria Potência do Sul",
+      "prioridade": "3",
+      "valor_pedido": 132.18,
+      "tempo_entrega": 82.8642857143
+    },
+    {
+      "entregador_id": "E035",
+      "entregador_idx": 34,
+      "pedido_id": "200",
+      "pedido_idx": 199,
+      "restaurante": "Fome de Salgados",
+      "prioridade": "3",
+      "valor_pedido": 42.28,
+      "tempo_entrega": 93.0181972822
+    },
+    {
+      "entregador_id": "E035",
+      "entregador_idx": 34,
+      "pedido_id": "201",
+      "pedido_idx": 200,
+      "restaurante": "Sayo Sushi",
+      "prioridade": "3",
+      "valor_pedido": 99.64,
+      "tempo_entrega": 89.9173469388
+    },
+    {
+      "entregador_id": "E035",
+      "entregador_idx": 34,
+      "pedido_id": "233",
+      "pedido_idx": 232,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "3",
+      "valor_pedido": 62.32,
+      "tempo_entrega": 64.3801020408
+    },
+    {
+      "entregador_id": "E036",
+      "entregador_idx": 35,
+      "pedido_id": "18",
+      "pedido_idx": 17,
+      "restaurante": "A La Bia - Confeitaria",
+      "prioridade": "2",
+      "valor_pedido": 134.92,
+      "tempo_entrega": 70.5885658881
+    },
+    {
+      "entregador_id": "E036",
+      "entregador_idx": 35,
+      "pedido_id": "104",
+      "pedido_idx": 103,
+      "restaurante": "Sayo Sushi",
+      "prioridade": "2",
+      "valor_pedido": 61.49,
+      "tempo_entrega": 68.1691860465
+    },
+    {
+      "entregador_id": "E037",
+      "entregador_idx": 36,
+      "pedido_id": "3",
+      "pedido_idx": 2,
+      "restaurante": "Angu Mineiro*Restaurante Comida Caseira*",
+      "prioridade": "3",
+      "valor_pedido": 55.26,
+      "tempo_entrega": 45.687645688
+    },
+    {
+      "entregador_id": "E037",
+      "entregador_idx": 36,
+      "pedido_id": "10",
+      "pedido_idx": 9,
+      "restaurante": "Arroz.com",
+      "prioridade": "2",
+      "valor_pedido": 23.62,
+      "tempo_entrega": 35.8355477889
+    },
+    {
+      "entregador_id": "E037",
+      "entregador_idx": 36,
+      "pedido_id": "30",
+      "pedido_idx": 29,
+      "restaurante": "Santa Filomena Restaurante",
+      "prioridade": "2",
+      "valor_pedido": 28.2,
+      "tempo_entrega": 48.1708624742
+    },
+    {
+      "entregador_id": "E037",
+      "entregador_idx": 36,
+      "pedido_id": "48",
+      "pedido_idx": 47,
+      "restaurante": "Juju Caldos e Massas",
+      "prioridade": "1",
+      "valor_pedido": 70.57,
+      "tempo_entrega": 68.981701635
+    },
+    {
+      "entregador_id": "E038",
+      "entregador_idx": 37,
+      "pedido_id": "95",
+      "pedido_idx": 94,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "2",
+      "valor_pedido": 51.51,
+      "tempo_entrega": 44.4298165138
+    },
+    {
+      "entregador_id": "E038",
+      "entregador_idx": 37,
+      "pedido_id": "189",
+      "pedido_idx": 188,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "2",
+      "valor_pedido": 142.46,
+      "tempo_entrega": 63.004587156
+    },
+    {
+      "entregador_id": "E038",
+      "entregador_idx": 37,
+      "pedido_id": "234",
+      "pedido_idx": 233,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "1",
+      "valor_pedido": 76.69,
+      "tempo_entrega": 81.1475535135
+    },
+    {
+      "entregador_id": "E040",
+      "entregador_idx": 39,
+      "pedido_id": "1",
+      "pedido_idx": 0,
+      "restaurante": "Confetalle",
+      "prioridade": "3",
+      "valor_pedido": 64.91,
+      "tempo_entrega": 23.0512820509
+    },
+    {
+      "entregador_id": "E040",
+      "entregador_idx": 39,
+      "pedido_id": "39",
+      "pedido_idx": 38,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "1",
+      "valor_pedido": 100.55,
+      "tempo_entrega": 34.4474358978
+    },
+    {
+      "entregador_id": "E040",
+      "entregador_idx": 39,
+      "pedido_id": "178",
+      "pedido_idx": 177,
+      "restaurante": "Subway Santa Luzia",
+      "prioridade": "1",
+      "valor_pedido": 120.68,
+      "tempo_entrega": 37.5012820509
+    },
+    {
+      "entregador_id": "E041",
+      "entregador_idx": 40,
+      "pedido_id": "183",
+      "pedido_idx": 182,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "1",
+      "valor_pedido": 25.96,
+      "tempo_entrega": 49.6608527165
+    },
+    {
+      "entregador_id": "E044",
+      "entregador_idx": 43,
+      "pedido_id": "13",
+      "pedido_idx": 12,
+      "restaurante": "Arroz.com",
+      "prioridade": "1",
+      "valor_pedido": 148.95,
+      "tempo_entrega": 75.2206459088
+    },
+    {
+      "entregador_id": "E044",
+      "entregador_idx": 43,
+      "pedido_id": "45",
+      "pedido_idx": 44,
+      "restaurante": "Piratas Lanches",
+      "prioridade": "3",
+      "valor_pedido": 126.99,
+      "tempo_entrega": 47.1361014961
+    },
+    {
+      "entregador_id": "E044",
+      "entregador_idx": 43,
+      "pedido_id": "62",
+      "pedido_idx": 61,
+      "restaurante": "Restaurante e Pizzaria Dona Dora",
+      "prioridade": "3",
+      "valor_pedido": 138.09,
+      "tempo_entrega": 36.9440023071
+    },
+    {
+      "entregador_id": "E044",
+      "entregador_idx": 43,
+      "pedido_id": "158",
+      "pedido_idx": 157,
+      "restaurante": "Deliciarte Confeitaria Artesanal",
+      "prioridade": "1",
+      "valor_pedido": 104.78,
+      "tempo_entrega": 62.2461937716
+    },
+    {
+      "entregador_id": "E044",
+      "entregador_idx": 43,
+      "pedido_id": "232",
+      "pedido_idx": 231,
+      "restaurante": "We Cafe",
+      "prioridade": "2",
+      "valor_pedido": 95.3,
+      "tempo_entrega": 50.1212226034
+    },
+    {
+      "entregador_id": "E046",
+      "entregador_idx": 45,
+      "pedido_id": "168",
+      "pedido_idx": 167,
+      "restaurante": "Bom de garfo",
+      "prioridade": "1",
+      "valor_pedido": 27.6,
+      "tempo_entrega": 110.834848488
+    },
+    {
+      "entregador_id": "E047",
+      "entregador_idx": 46,
+      "pedido_id": "72",
+      "pedido_idx": 71,
+      "restaurante": "Bar do Manel",
+      "prioridade": "3",
+      "valor_pedido": 70.77,
+      "tempo_entrega": 44.0875995416
+    },
+    {
+      "entregador_id": "E047",
+      "entregador_idx": 46,
+      "pedido_id": "163",
+      "pedido_idx": 162,
+      "restaurante": "Breguet's Bão Pizzaria Delivery",
+      "prioridade": "1",
+      "valor_pedido": 88.52,
+      "tempo_entrega": 76.4932309409
+    },
+    {
+      "entregador_id": "E047",
+      "entregador_idx": 46,
+      "pedido_id": "187",
+      "pedido_idx": 186,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "3",
+      "valor_pedido": 117.96,
+      "tempo_entrega": 49.5062571137
+    },
+    {
+      "entregador_id": "E047",
+      "entregador_idx": 46,
+      "pedido_id": "246",
+      "pedido_idx": 245,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "1",
+      "valor_pedido": 41.69,
+      "tempo_entrega": 64.8793515358
+    },
+    {
+      "entregador_id": "E048",
+      "entregador_idx": 47,
+      "pedido_id": "11",
+      "pedido_idx": 10,
+      "restaurante": "Kfc - Shopping Jardim Norte",
+      "prioridade": "2",
+      "valor_pedido": 99.68,
+      "tempo_entrega": 42.2229032258
+    },
+    {
+      "entregador_id": "E048",
+      "entregador_idx": 47,
+      "pedido_id": "27",
+      "pedido_idx": 26,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "1",
+      "valor_pedido": 141.98,
+      "tempo_entrega": 78.0536559106
+    },
+    {
+      "entregador_id": "E048",
+      "entregador_idx": 47,
+      "pedido_id": "130",
+      "pedido_idx": 129,
+      "restaurante": "Bar do Gaúcho Parrillaria",
+      "prioridade": "3",
+      "valor_pedido": 34.07,
+      "tempo_entrega": 50.5582795732
+    },
+    {
+      "entregador_id": "E049",
+      "entregador_idx": 48,
+      "pedido_id": "33",
+      "pedido_idx": 32,
+      "restaurante": "Restaurante na Brasa Almoço & Marmitex",
+      "prioridade": "1",
+      "valor_pedido": 97.27,
+      "tempo_entrega": 67.6809696936
+    },
+    {
+      "entregador_id": "E049",
+      "entregador_idx": 48,
+      "pedido_id": "46",
+      "pedido_idx": 45,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "1",
+      "valor_pedido": 78.24,
+      "tempo_entrega": 69.03866667
+    },
+    {
+      "entregador_id": "E049",
+      "entregador_idx": 48,
+      "pedido_id": "79",
+      "pedido_idx": 78,
+      "restaurante": "Piratas Lanches",
+      "prioridade": "1",
+      "valor_pedido": 32.41,
+      "tempo_entrega": 71.3990909091
+    },
+    {
+      "entregador_id": "E049",
+      "entregador_idx": 48,
+      "pedido_id": "88",
+      "pedido_idx": 87,
+      "restaurante": "Deliciarte Confeitaria Artesanal",
+      "prioridade": "1",
+      "valor_pedido": 34.85,
+      "tempo_entrega": 64.8883636364
+    },
+    {
+      "entregador_id": "E050",
+      "entregador_idx": 49,
+      "pedido_id": "40",
+      "pedido_idx": 39,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "2",
+      "valor_pedido": 93.74,
+      "tempo_entrega": 34.0822097345
+    },
+    {
+      "entregador_id": "E051",
+      "entregador_idx": 50,
+      "pedido_id": "15",
+      "pedido_idx": 14,
+      "restaurante": "Mcdonald's - Batista de Oliveira",
+      "prioridade": "2",
+      "valor_pedido": 67.51,
+      "tempo_entrega": 61.2222846475
+    },
+    {
+      "entregador_id": "E051",
+      "entregador_idx": 50,
+      "pedido_id": "23",
+      "pedido_idx": 22,
+      "restaurante": "Cakes Nana Reis",
+      "prioridade": "3",
+      "valor_pedido": 95.44,
+      "tempo_entrega": 61.226591757
+    },
+    {
+      "entregador_id": "E051",
+      "entregador_idx": 50,
+      "pedido_id": "55",
+      "pedido_idx": 54,
+      "restaurante": "Mcdonald's - Batista de Oliveira",
+      "prioridade": "2",
+      "valor_pedido": 113.12,
+      "tempo_entrega": 59.1050561798
+    },
+    {
+      "entregador_id": "E051",
+      "entregador_idx": 50,
+      "pedido_id": "143",
+      "pedido_idx": 142,
+      "restaurante": "Planet Churros",
+      "prioridade": "2",
+      "valor_pedido": 69.56,
+      "tempo_entrega": 76.6891385801
+    },
+    {
+      "entregador_id": "E052",
+      "entregador_idx": 51,
+      "pedido_id": "90",
+      "pedido_idx": 89,
+      "restaurante": "China in Box - Juiz de Fora",
+      "prioridade": "2",
+      "valor_pedido": 65.9,
+      "tempo_entrega": 59.9618181818
+    },
+    {
+      "entregador_id": "E052",
+      "entregador_idx": 51,
+      "pedido_id": "220",
+      "pedido_idx": 219,
+      "restaurante": "O Que Comer, Fernando?",
+      "prioridade": "3",
+      "valor_pedido": 36.05,
+      "tempo_entrega": 54.8578787845
+    },
+    {
+      "entregador_id": "E053",
+      "entregador_idx": 52,
+      "pedido_id": "57",
+      "pedido_idx": 56,
+      "restaurante": "Juju Caldos e Massas",
+      "prioridade": "3",
+      "valor_pedido": 122.89,
+      "tempo_entrega": 59.3312849162
+    },
+    {
+      "entregador_id": "E053",
+      "entregador_idx": 52,
+      "pedido_id": "228",
+      "pedido_idx": 227,
+      "restaurante": "Culinária da Juju",
+      "prioridade": "2",
+      "valor_pedido": 27.07,
+      "tempo_entrega": 70.7292365024
+    },
+    {
+      "entregador_id": "E054",
+      "entregador_idx": 53,
+      "pedido_id": "166",
+      "pedido_idx": 165,
+      "restaurante": "Dadu Doces Confeitaria",
+      "prioridade": "2",
+      "valor_pedido": 30.58,
+      "tempo_entrega": 57.9070491803
+    },
+    {
+      "entregador_id": "E055",
+      "entregador_idx": 54,
+      "pedido_id": "185",
+      "pedido_idx": 184,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "3",
+      "valor_pedido": 123.42,
+      "tempo_entrega": 82.15520833
+    },
+    {
+      "entregador_id": "E055",
+      "entregador_idx": 54,
+      "pedido_id": "213",
+      "pedido_idx": 212,
+      "restaurante": "Kfc - Shopping Jardim Norte",
+      "prioridade": "3",
+      "valor_pedido": 77.55,
+      "tempo_entrega": 75.17083333
+    },
+    {
+      "entregador_id": "E057",
+      "entregador_idx": 56,
+      "pedido_id": "123",
+      "pedido_idx": 122,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "3",
+      "valor_pedido": 68.06,
+      "tempo_entrega": 42.9137367882
+    },
+    {
+      "entregador_id": "E057",
+      "entregador_idx": 56,
+      "pedido_id": "164",
+      "pedido_idx": 163,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "3",
+      "valor_pedido": 137.46,
+      "tempo_entrega": 41.2109510086
+    },
+    {
+      "entregador_id": "E057",
+      "entregador_idx": 56,
+      "pedido_id": "181",
+      "pedido_idx": 180,
+      "restaurante": "Restaurante Bom Sabor Jf",
+      "prioridade": "2",
+      "valor_pedido": 67.57,
+      "tempo_entrega": 68.3211335288
+    },
+    {
+      "entregador_id": "E057",
+      "entregador_idx": 56,
+      "pedido_id": "225",
+      "pedido_idx": 224,
+      "restaurante": "Confetalle",
+      "prioridade": "3",
+      "valor_pedido": 38.02,
+      "tempo_entrega": 56.4721902017
+    },
+    {
+      "entregador_id": "E058",
+      "entregador_idx": 57,
+      "pedido_id": "6",
+      "pedido_idx": 5,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "3",
+      "valor_pedido": 48.81,
+      "tempo_entrega": 46.8336468096
+    },
+    {
+      "entregador_id": "E059",
+      "entregador_idx": 58,
+      "pedido_id": "160",
+      "pedido_idx": 159,
+      "restaurante": "Churrascaria Potência do Sul",
+      "prioridade": "3",
+      "valor_pedido": 130.62,
+      "tempo_entrega": 68.87653333
+    },
+    {
+      "entregador_id": "E060",
+      "entregador_idx": 59,
+      "pedido_id": "173",
+      "pedido_idx": 172,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "3",
+      "valor_pedido": 22.04,
+      "tempo_entrega": 55.9360215087
+    },
+    {
+      "entregador_id": "E061",
+      "entregador_idx": 60,
+      "pedido_id": "56",
+      "pedido_idx": 55,
+      "restaurante": "Juju Caldos e Massas",
+      "prioridade": "2",
+      "valor_pedido": 114.76,
+      "tempo_entrega": 40.8353945852
+    },
+    {
+      "entregador_id": "E061",
+      "entregador_idx": 60,
+      "pedido_id": "65",
+      "pedido_idx": 64,
+      "restaurante": "A La Bia - Confeitaria",
+      "prioridade": "3",
+      "valor_pedido": 72.9,
+      "tempo_entrega": 44.388103651
+    },
+    {
+      "entregador_id": "E061",
+      "entregador_idx": 60,
+      "pedido_id": "93",
+      "pedido_idx": 92,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "1",
+      "valor_pedido": 146.16,
+      "tempo_entrega": 76.3493521824
+    },
+    {
+      "entregador_id": "E061",
+      "entregador_idx": 60,
+      "pedido_id": "99",
+      "pedido_idx": 98,
+      "restaurante": "Kfc - Shopping Jardim Norte",
+      "prioridade": "2",
+      "valor_pedido": 51.53,
+      "tempo_entrega": 34.7332744439
+    },
+    {
+      "entregador_id": "E062",
+      "entregador_idx": 61,
+      "pedido_id": "12",
+      "pedido_idx": 11,
+      "restaurante": "We Cafe",
+      "prioridade": "3",
+      "valor_pedido": 76.44,
+      "tempo_entrega": 48.5068115909
+    },
+    {
+      "entregador_id": "E062",
+      "entregador_idx": 61,
+      "pedido_id": "75",
+      "pedido_idx": 74,
+      "restaurante": "Restaurante e Pizzaria Dona Dora",
+      "prioridade": "3",
+      "valor_pedido": 57.86,
+      "tempo_entrega": 53.1349275396
+    },
+    {
+      "entregador_id": "E062",
+      "entregador_idx": 61,
+      "pedido_id": "167",
+      "pedido_idx": 166,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "2",
+      "valor_pedido": 121.29,
+      "tempo_entrega": 62.908840583
+    },
+    {
+      "entregador_id": "E062",
+      "entregador_idx": 61,
+      "pedido_id": "175",
+      "pedido_idx": 174,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "2",
+      "valor_pedido": 21.7,
+      "tempo_entrega": 48.7795652174
+    },
+    {
+      "entregador_id": "E062",
+      "entregador_idx": 61,
+      "pedido_id": "198",
+      "pedido_idx": 197,
+      "restaurante": "Cakes Nana Reis",
+      "prioridade": "2",
+      "valor_pedido": 122.13,
+      "tempo_entrega": 67.3853623222
+    },
+    {
+      "entregador_id": "E063",
+      "entregador_idx": 62,
+      "pedido_id": "205",
+      "pedido_idx": 204,
+      "restaurante": "Pizza do Rão - Juiz de Fora",
+      "prioridade": "1",
+      "valor_pedido": 89.19,
+      "tempo_entrega": 51.642011016
+    },
+    {
+      "entregador_id": "E063",
+      "entregador_idx": 62,
+      "pedido_id": "224",
+      "pedido_idx": 223,
+      "restaurante": "Vaporetto Restaurante",
+      "prioridade": "1",
+      "valor_pedido": 129.61,
+      "tempo_entrega": 42.9046831989
+    },
+    {
+      "entregador_id": "E064",
+      "entregador_idx": 63,
+      "pedido_id": "42",
+      "pedido_idx": 41,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "1",
+      "valor_pedido": 75.9,
+      "tempo_entrega": 17.0021834061
+    },
+    {
+      "entregador_id": "E064",
+      "entregador_idx": 63,
+      "pedido_id": "108",
+      "pedido_idx": 107,
+      "restaurante": "Pizza do Rão - Juiz de Fora",
+      "prioridade": "3",
+      "valor_pedido": 25.31,
+      "tempo_entrega": 21.123580786
+    },
+    {
+      "entregador_id": "E064",
+      "entregador_idx": 63,
+      "pedido_id": "150",
+      "pedido_idx": 149,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "3",
+      "valor_pedido": 106.8,
+      "tempo_entrega": 22.1922125185
+    },
+    {
+      "entregador_id": "E065",
+      "entregador_idx": 64,
+      "pedido_id": "22",
+      "pedido_idx": 21,
+      "restaurante": "Pizza do Rão - Juiz de Fora",
+      "prioridade": "1",
+      "valor_pedido": 66.59,
+      "tempo_entrega": 43.31666667
+    },
+    {
+      "entregador_id": "E065",
+      "entregador_idx": 64,
+      "pedido_id": "26",
+      "pedido_idx": 25,
+      "restaurante": "Vaporetto Restaurante",
+      "prioridade": "1",
+      "valor_pedido": 107.13,
+      "tempo_entrega": 36.13083333
+    },
+    {
+      "entregador_id": "E065",
+      "entregador_idx": 64,
+      "pedido_id": "186",
+      "pedido_idx": 185,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "3",
+      "valor_pedido": 88.08,
+      "tempo_entrega": 34.4325
+    },
+    {
+      "entregador_id": "E066",
+      "entregador_idx": 65,
+      "pedido_id": "7",
+      "pedido_idx": 6,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "1",
+      "valor_pedido": 27.61,
+      "tempo_entrega": 22.6666666667
+    },
+    {
+      "entregador_id": "E066",
+      "entregador_idx": 65,
+      "pedido_id": "128",
+      "pedido_idx": 127,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "1",
+      "valor_pedido": 96.08,
+      "tempo_entrega": 45.1410256414
+    },
+    {
+      "entregador_id": "E066",
+      "entregador_idx": 65,
+      "pedido_id": "190",
+      "pedido_idx": 189,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "1",
+      "valor_pedido": 65.39,
+      "tempo_entrega": 35.266666667
+    },
+    {
+      "entregador_id": "E066",
+      "entregador_idx": 65,
+      "pedido_id": "209",
+      "pedido_idx": 208,
+      "restaurante": "Parmegiana Crocante",
+      "prioridade": "1",
+      "valor_pedido": 56.16,
+      "tempo_entrega": 43.4205128208
+    },
+    {
+      "entregador_id": "E067",
+      "entregador_idx": 66,
+      "pedido_id": "126",
+      "pedido_idx": 125,
+      "restaurante": "Bom de garfo",
+      "prioridade": "3",
+      "valor_pedido": 22.25,
+      "tempo_entrega": 54.87166667
+    },
+    {
+      "entregador_id": "E068",
+      "entregador_idx": 67,
+      "pedido_id": "36",
+      "pedido_idx": 35,
+      "restaurante": "Pizza do Rão - Juiz de Fora",
+      "prioridade": "2",
+      "valor_pedido": 97.58,
+      "tempo_entrega": 75.548504834
+    },
+    {
+      "entregador_id": "E068",
+      "entregador_idx": 67,
+      "pedido_id": "49",
+      "pedido_idx": 48,
+      "restaurante": "Churrascaria Potência do Sul",
+      "prioridade": "3",
+      "valor_pedido": 58.45,
+      "tempo_entrega": 54.8103342162
+    },
+    {
+      "entregador_id": "E068",
+      "entregador_idx": 67,
+      "pedido_id": "71",
+      "pedido_idx": 70,
+      "restaurante": "Seu Pastel",
+      "prioridade": "2",
+      "valor_pedido": 147.38,
+      "tempo_entrega": 85.7522867228
+    },
+    {
+      "entregador_id": "E068",
+      "entregador_idx": 67,
+      "pedido_id": "182",
+      "pedido_idx": 181,
+      "restaurante": "Restaurante Bom Sabor Jf",
+      "prioridade": "3",
+      "valor_pedido": 121.32,
+      "tempo_entrega": 55.2870712401
+    },
+    {
+      "entregador_id": "E069",
+      "entregador_idx": 68,
+      "pedido_id": "109",
+      "pedido_idx": 108,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "3",
+      "valor_pedido": 89.63,
+      "tempo_entrega": 71.9266753666
+    },
+    {
+      "entregador_id": "E069",
+      "entregador_idx": 68,
+      "pedido_id": "121",
+      "pedido_idx": 120,
+      "restaurante": "Cakes Nana Reis",
+      "prioridade": "3",
+      "valor_pedido": 22.54,
+      "tempo_entrega": 68.4391644909
+    },
+    {
+      "entregador_id": "E069",
+      "entregador_idx": 68,
+      "pedido_id": "239",
+      "pedido_idx": 238,
+      "restaurante": "Subway Santa Luzia",
+      "prioridade": "3",
+      "valor_pedido": 91.91,
+      "tempo_entrega": 53.8402959128
+    },
+    {
+      "entregador_id": "E071",
+      "entregador_idx": 70,
+      "pedido_id": "137",
+      "pedido_idx": 136,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "3",
+      "valor_pedido": 26.85,
+      "tempo_entrega": 50.4638613861
+    },
+    {
+      "entregador_id": "E071",
+      "entregador_idx": 70,
+      "pedido_id": "159",
+      "pedido_idx": 158,
+      "restaurante": "Arroz.com",
+      "prioridade": "2",
+      "valor_pedido": 44.95,
+      "tempo_entrega": 53.3424092443
+    },
+    {
+      "entregador_id": "E072",
+      "entregador_idx": 71,
+      "pedido_id": "2",
+      "pedido_idx": 1,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "2",
+      "valor_pedido": 54.88,
+      "tempo_entrega": 40.5931095406
+    },
+    {
+      "entregador_id": "E072",
+      "entregador_idx": 71,
+      "pedido_id": "64",
+      "pedido_idx": 63,
+      "restaurante": "Parmegiana Crocante",
+      "prioridade": "2",
+      "valor_pedido": 21.77,
+      "tempo_entrega": 46.1981154333
+    },
+    {
+      "entregador_id": "E072",
+      "entregador_idx": 71,
+      "pedido_id": "84",
+      "pedido_idx": 83,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "3",
+      "valor_pedido": 46.63,
+      "tempo_entrega": 40.7668433484
+    },
+    {
+      "entregador_id": "E072",
+      "entregador_idx": 71,
+      "pedido_id": "230",
+      "pedido_idx": 229,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "3",
+      "valor_pedido": 45.48,
+      "tempo_entrega": 27.3247938755
+    },
+    {
+      "entregador_id": "E073",
+      "entregador_idx": 72,
+      "pedido_id": "116",
+      "pedido_idx": 115,
+      "restaurante": "We Cafe",
+      "prioridade": "3",
+      "valor_pedido": 144.66,
+      "tempo_entrega": 61.3451871658
+    },
+    {
+      "entregador_id": "E074",
+      "entregador_idx": 73,
+      "pedido_id": "9",
+      "pedido_idx": 8,
+      "restaurante": "Chic Frangos",
+      "prioridade": "1",
+      "valor_pedido": 98.9,
+      "tempo_entrega": 83.4409240957
+    },
+    {
+      "entregador_id": "E074",
+      "entregador_idx": 73,
+      "pedido_id": "96",
+      "pedido_idx": 95,
+      "restaurante": "Santa Filomena Restaurante",
+      "prioridade": "3",
+      "valor_pedido": 134.39,
+      "tempo_entrega": 47.43333333
+    },
+    {
+      "entregador_id": "E074",
+      "entregador_idx": 73,
+      "pedido_id": "216",
+      "pedido_idx": 215,
+      "restaurante": "Kfc - Shopping Jardim Norte",
+      "prioridade": "1",
+      "valor_pedido": 58.87,
+      "tempo_entrega": 75.0486798647
+    },
+    {
+      "entregador_id": "E074",
+      "entregador_idx": 73,
+      "pedido_id": "217",
+      "pedido_idx": 216,
+      "restaurante": "Pizza do Rão - Juiz de Fora",
+      "prioridade": "1",
+      "valor_pedido": 28.23,
+      "tempo_entrega": 88.3768976864
+    },
+    {
+      "entregador_id": "E075",
+      "entregador_idx": 74,
+      "pedido_id": "219",
+      "pedido_idx": 218,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "3",
+      "valor_pedido": 102.28,
+      "tempo_entrega": 69.434496124
+    },
+    {
+      "entregador_id": "E076",
+      "entregador_idx": 75,
+      "pedido_id": "141",
+      "pedido_idx": 140,
+      "restaurante": "Arroz.com",
+      "prioridade": "2",
+      "valor_pedido": 100.31,
+      "tempo_entrega": 76.4752032554
+    },
+    {
+      "entregador_id": "E077",
+      "entregador_idx": 76,
+      "pedido_id": "76",
+      "pedido_idx": 75,
+      "restaurante": "Aladim esfiharia e Lanchonete",
+      "prioridade": "2",
+      "valor_pedido": 103.04,
+      "tempo_entrega": 1084.90757572
+    },
+    {
+      "entregador_id": "E077",
+      "entregador_idx": 76,
+      "pedido_id": "113",
+      "pedido_idx": 112,
+      "restaurante": "Aladim esfiharia e Lanchonete",
+      "prioridade": "2",
+      "valor_pedido": 97.0,
+      "tempo_entrega": 1062.65454542
+    },
+    {
+      "entregador_id": "E077",
+      "entregador_idx": 76,
+      "pedido_id": "118",
+      "pedido_idx": 117,
+      "restaurante": "Aladim esfiharia e Lanchonete",
+      "prioridade": "3",
+      "valor_pedido": 20.57,
+      "tempo_entrega": 1093.59393936
+    },
+    {
+      "entregador_id": "E077",
+      "entregador_idx": 76,
+      "pedido_id": "218",
+      "pedido_idx": 217,
+      "restaurante": "Aladim esfiharia e Lanchonete",
+      "prioridade": "1",
+      "valor_pedido": 105.87,
+      "tempo_entrega": 1090.64848482
+    },
+    {
+      "entregador_id": "E078",
+      "entregador_idx": 77,
+      "pedido_id": "16",
+      "pedido_idx": 15,
+      "restaurante": "Bar do Manel",
+      "prioridade": "2",
+      "valor_pedido": 57.29,
+      "tempo_entrega": 39.6529850746
+    },
+    {
+      "entregador_id": "E079",
+      "entregador_idx": 78,
+      "pedido_id": "50",
+      "pedido_idx": 49,
+      "restaurante": "Churrascaria Potência do Sul",
+      "prioridade": "1",
+      "valor_pedido": 28.42,
+      "tempo_entrega": 50.5163208849
+    },
+    {
+      "entregador_id": "E079",
+      "entregador_idx": 78,
+      "pedido_id": "74",
+      "pedido_idx": 73,
+      "restaurante": "Restaurante na Brasa Almoço & Marmitex",
+      "prioridade": "1",
+      "valor_pedido": 138.18,
+      "tempo_entrega": 56.4339557366
+    },
+    {
+      "entregador_id": "E079",
+      "entregador_idx": 78,
+      "pedido_id": "142",
+      "pedido_idx": 141,
+      "restaurante": "Planet Churros",
+      "prioridade": "1",
+      "valor_pedido": 123.78,
+      "tempo_entrega": 50.051659751
+    },
+    {
+      "entregador_id": "E079",
+      "entregador_idx": 78,
+      "pedido_id": "170",
+      "pedido_idx": 169,
+      "restaurante": "Culinária da Juju",
+      "prioridade": "1",
+      "valor_pedido": 101.72,
+      "tempo_entrega": 43.2268326451
+    },
+    {
+      "entregador_id": "E079",
+      "entregador_idx": 78,
+      "pedido_id": "221",
+      "pedido_idx": 220,
+      "restaurante": "Seu Pastel",
+      "prioridade": "2",
+      "valor_pedido": 92.34,
+      "tempo_entrega": 34.8370677728
+    },
+    {
+      "entregador_id": "E081",
+      "entregador_idx": 80,
+      "pedido_id": "83",
+      "pedido_idx": 82,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "3",
+      "valor_pedido": 62.32,
+      "tempo_entrega": 48.0989855039
+    },
+    {
+      "entregador_id": "E081",
+      "entregador_idx": 80,
+      "pedido_id": "97",
+      "pedido_idx": 96,
+      "restaurante": "A La Bia - Confeitaria",
+      "prioridade": "3",
+      "valor_pedido": 136.47,
+      "tempo_entrega": 46.4072463735
+    },
+    {
+      "entregador_id": "E081",
+      "entregador_idx": 80,
+      "pedido_id": "199",
+      "pedido_idx": 198,
+      "restaurante": "Restaurante na Brasa Almoço & Marmitex",
+      "prioridade": "3",
+      "valor_pedido": 79.6,
+      "tempo_entrega": 62.08
+    },
+    {
+      "entregador_id": "E081",
+      "entregador_idx": 80,
+      "pedido_id": "211",
+      "pedido_idx": 210,
+      "restaurante": "Arroz.com",
+      "prioridade": "2",
+      "valor_pedido": 38.37,
+      "tempo_entrega": 53.9620289822
+    },
+    {
+      "entregador_id": "E082",
+      "entregador_idx": 81,
+      "pedido_id": "25",
+      "pedido_idx": 24,
+      "restaurante": "Tempero Caseiro",
+      "prioridade": "3",
+      "valor_pedido": 33.13,
+      "tempo_entrega": 86.0604651196
+    },
+    {
+      "entregador_id": "E082",
+      "entregador_idx": 81,
+      "pedido_id": "41",
+      "pedido_idx": 40,
+      "restaurante": "Totonho Sao Mateus",
+      "prioridade": "3",
+      "valor_pedido": 37.55,
+      "tempo_entrega": 86.0608527132
+    },
+    {
+      "entregador_id": "E082",
+      "entregador_idx": 81,
+      "pedido_id": "58",
+      "pedido_idx": 57,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "3",
+      "valor_pedido": 35.8,
+      "tempo_entrega": 73.5724806168
+    },
+    {
+      "entregador_id": "E082",
+      "entregador_idx": 81,
+      "pedido_id": "114",
+      "pedido_idx": 113,
+      "restaurante": "Vaporetto Restaurante",
+      "prioridade": "3",
+      "valor_pedido": 139.42,
+      "tempo_entrega": 82.2988372126
+    },
+    {
+      "entregador_id": "E082",
+      "entregador_idx": 81,
+      "pedido_id": "193",
+      "pedido_idx": 192,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "3",
+      "valor_pedido": 20.61,
+      "tempo_entrega": 70.4612403101
+    },
+    {
+      "entregador_id": "E083",
+      "entregador_idx": 82,
+      "pedido_id": "69",
+      "pedido_idx": 68,
+      "restaurante": "Bar do Manel",
+      "prioridade": "1",
+      "valor_pedido": 37.4,
+      "tempo_entrega": 52.0651282085
+    },
+    {
+      "entregador_id": "E083",
+      "entregador_idx": 82,
+      "pedido_id": "91",
+      "pedido_idx": 90,
+      "restaurante": "Deliciarte Confeitaria Artesanal",
+      "prioridade": "1",
+      "valor_pedido": 124.35,
+      "tempo_entrega": 64.1605128238
+    },
+    {
+      "entregador_id": "E083",
+      "entregador_idx": 82,
+      "pedido_id": "222",
+      "pedido_idx": 221,
+      "restaurante": "Arroz.com",
+      "prioridade": "1",
+      "valor_pedido": 26.29,
+      "tempo_entrega": 53.2982051315
+    },
+    {
+      "entregador_id": "E083",
+      "entregador_idx": 82,
+      "pedido_id": "238",
+      "pedido_idx": 237,
+      "restaurante": "Totonho Sao Mateus",
+      "prioridade": "3",
+      "valor_pedido": 29.07,
+      "tempo_entrega": 37.4430769231
+    },
+    {
+      "entregador_id": "E084",
+      "entregador_idx": 83,
+      "pedido_id": "19",
+      "pedido_idx": 18,
+      "restaurante": "Restaurante Bom Sabor Jf",
+      "prioridade": "3",
+      "valor_pedido": 53.97,
+      "tempo_entrega": 57.6074906334
+    },
+    {
+      "entregador_id": "E084",
+      "entregador_idx": 83,
+      "pedido_id": "68",
+      "pedido_idx": 67,
+      "restaurante": "La Tagliatella House",
+      "prioridade": "3",
+      "valor_pedido": 64.17,
+      "tempo_entrega": 61.2975655464
+    },
+    {
+      "entregador_id": "E084",
+      "entregador_idx": 83,
+      "pedido_id": "129",
+      "pedido_idx": 128,
+      "restaurante": "Costelaria Compadre Grill",
+      "prioridade": "3",
+      "valor_pedido": 102.19,
+      "tempo_entrega": 54.9831460674
+    },
+    {
+      "entregador_id": "E085",
+      "entregador_idx": 84,
+      "pedido_id": "29",
+      "pedido_idx": 28,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "2",
+      "valor_pedido": 20.65,
+      "tempo_entrega": 39.5204323574
+    },
+    {
+      "entregador_id": "E085",
+      "entregador_idx": 84,
+      "pedido_id": "47",
+      "pedido_idx": 46,
+      "restaurante": "Seu Pastel",
+      "prioridade": "1",
+      "valor_pedido": 34.49,
+      "tempo_entrega": 34.8258716879
+    },
+    {
+      "entregador_id": "E085",
+      "entregador_idx": 84,
+      "pedido_id": "111",
+      "pedido_idx": 110,
+      "restaurante": "Totonho Sao Mateus",
+      "prioridade": "2",
+      "valor_pedido": 21.27,
+      "tempo_entrega": 19.4169456067
+    },
+    {
+      "entregador_id": "E085",
+      "entregador_idx": 84,
+      "pedido_id": "148",
+      "pedido_idx": 147,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "1",
+      "valor_pedido": 146.53,
+      "tempo_entrega": 35.7238493724
+    },
+    {
+      "entregador_id": "E085",
+      "entregador_idx": 84,
+      "pedido_id": "244",
+      "pedido_idx": 243,
+      "restaurante": "Dadu Doces Confeitaria",
+      "prioridade": "3",
+      "valor_pedido": 58.46,
+      "tempo_entrega": 37.5841701531
+    },
+    {
+      "entregador_id": "E086",
+      "entregador_idx": 85,
+      "pedido_id": "51",
+      "pedido_idx": 50,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "1",
+      "valor_pedido": 64.9,
+      "tempo_entrega": 85.3998111459
+    },
+    {
+      "entregador_id": "E086",
+      "entregador_idx": 85,
+      "pedido_id": "80",
+      "pedido_idx": 79,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "2",
+      "valor_pedido": 97.64,
+      "tempo_entrega": 62.6764872521
+    },
+    {
+      "entregador_id": "E087",
+      "entregador_idx": 86,
+      "pedido_id": "4",
+      "pedido_idx": 3,
+      "restaurante": "Chic Frangos",
+      "prioridade": "2",
+      "valor_pedido": 33.05,
+      "tempo_entrega": 40.8465635772
+    },
+    {
+      "entregador_id": "E087",
+      "entregador_idx": 86,
+      "pedido_id": "43",
+      "pedido_idx": 42,
+      "restaurante": "Sanduba na Caixa",
+      "prioridade": "2",
+      "valor_pedido": 88.44,
+      "tempo_entrega": 43.4286941547
+    },
+    {
+      "entregador_id": "E087",
+      "entregador_idx": 86,
+      "pedido_id": "125",
+      "pedido_idx": 124,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "1",
+      "valor_pedido": 89.31,
+      "tempo_entrega": 58.3608247423
+    },
+    {
+      "entregador_id": "E087",
+      "entregador_idx": 86,
+      "pedido_id": "184",
+      "pedido_idx": 183,
+      "restaurante": "Bom de garfo",
+      "prioridade": "1",
+      "valor_pedido": 123.31,
+      "tempo_entrega": 65.9625429587
+    },
+    {
+      "entregador_id": "E087",
+      "entregador_idx": 86,
+      "pedido_id": "197",
+      "pedido_idx": 196,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "3",
+      "valor_pedido": 145.98,
+      "tempo_entrega": 36.172852237
+    },
+    {
+      "entregador_id": "E089",
+      "entregador_idx": 88,
+      "pedido_id": "31",
+      "pedido_idx": 30,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "1",
+      "valor_pedido": 96.28,
+      "tempo_entrega": 90.0080586047
+    },
+    {
+      "entregador_id": "E089",
+      "entregador_idx": 88,
+      "pedido_id": "92",
+      "pedido_idx": 91,
+      "restaurante": "Casero Comida Mineira Marmitex & Almoço",
+      "prioridade": "2",
+      "valor_pedido": 141.45,
+      "tempo_entrega": 73.2756410223
+    },
+    {
+      "entregador_id": "E090",
+      "entregador_idx": 89,
+      "pedido_id": "37",
+      "pedido_idx": 36,
+      "restaurante": "Restaurante Ebenézer",
+      "prioridade": "2",
+      "valor_pedido": 137.63,
+      "tempo_entrega": 66.1190544413
+    },
+    {
+      "entregador_id": "E090",
+      "entregador_idx": 89,
+      "pedido_id": "161",
+      "pedido_idx": 160,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "2",
+      "valor_pedido": 104.28,
+      "tempo_entrega": 69.1658070711
+    },
+    {
+      "entregador_id": "E090",
+      "entregador_idx": 89,
+      "pedido_id": "179",
+      "pedido_idx": 178,
+      "restaurante": "Churrascaria Potência do Sul",
+      "prioridade": "3",
+      "valor_pedido": 67.23,
+      "tempo_entrega": 55.960936011
+    },
+    {
+      "entregador_id": "E091",
+      "entregador_idx": 90,
+      "pedido_id": "38",
+      "pedido_idx": 37,
+      "restaurante": "Vaporetto Restaurante",
+      "prioridade": "2",
+      "valor_pedido": 126.69,
+      "tempo_entrega": 34.5801418436
+    },
+    {
+      "entregador_id": "E091",
+      "entregador_idx": 90,
+      "pedido_id": "120",
+      "pedido_idx": 119,
+      "restaurante": "Marmita Top",
+      "prioridade": "3",
+      "valor_pedido": 66.07,
+      "tempo_entrega": 35.4412056734
+    },
+    {
+      "entregador_id": "E092",
+      "entregador_idx": 91,
+      "pedido_id": "162",
+      "pedido_idx": 161,
+      "restaurante": "We Cafe",
+      "prioridade": "3",
+      "valor_pedido": 96.34,
+      "tempo_entrega": 58.0093352917
+    },
+    {
+      "entregador_id": "E092",
+      "entregador_idx": 91,
+      "pedido_id": "202",
+      "pedido_idx": 201,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "3",
+      "valor_pedido": 93.53,
+      "tempo_entrega": 40.4741446759
+    },
+    {
+      "entregador_id": "E093",
+      "entregador_idx": 92,
+      "pedido_id": "5",
+      "pedido_idx": 4,
+      "restaurante": "Restaurante Estação - Fogo baixo",
+      "prioridade": "1",
+      "valor_pedido": 23.73,
+      "tempo_entrega": 51.2285714319
+    },
+    {
+      "entregador_id": "E093",
+      "entregador_idx": 92,
+      "pedido_id": "52",
+      "pedido_idx": 51,
+      "restaurante": "Deligeli Moinho",
+      "prioridade": "1",
+      "valor_pedido": 89.4,
+      "tempo_entrega": 39.2285714286
+    },
+    {
+      "entregador_id": "E093",
+      "entregador_idx": 92,
+      "pedido_id": "107",
+      "pedido_idx": 106,
+      "restaurante": "Ohana Restaurante Comida Que Abraça!",
+      "prioridade": "1",
+      "valor_pedido": 26.93,
+      "tempo_entrega": 52.3261904795
+    },
+    {
+      "entregador_id": "E093",
+      "entregador_idx": 92,
+      "pedido_id": "188",
+      "pedido_idx": 187,
+      "restaurante": "Restaurante Bom Sabor Jf",
+      "prioridade": "1",
+      "valor_pedido": 88.7,
+      "tempo_entrega": 55.4547619014
+    },
+    {
+      "entregador_id": "E093",
+      "entregador_idx": 92,
+      "pedido_id": "250",
+      "pedido_idx": 249,
+      "restaurante": "Fogao Mineiro Andradas",
+      "prioridade": "1",
+      "valor_pedido": 29.63,
+      "tempo_entrega": 60.1761904762
+    },
+    {
+      "entregador_id": "E095",
+      "entregador_idx": 94,
+      "pedido_id": "8",
+      "pedido_idx": 7,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "1",
+      "valor_pedido": 28.33,
+      "tempo_entrega": 54.8102108034
+    },
+    {
+      "entregador_id": "E095",
+      "entregador_idx": 94,
+      "pedido_id": "60",
+      "pedido_idx": 59,
+      "restaurante": "We Cafe",
+      "prioridade": "2",
+      "valor_pedido": 133.65,
+      "tempo_entrega": 42.1291172599
+    },
+    {
+      "entregador_id": "E095",
+      "entregador_idx": 94,
+      "pedido_id": "103",
+      "pedido_idx": 102,
+      "restaurante": "Restaurante Bom Sabor Jf",
+      "prioridade": "1",
+      "valor_pedido": 82.0,
+      "tempo_entrega": 50.4514492787
+    },
+    {
+      "entregador_id": "E095",
+      "entregador_idx": 94,
+      "pedido_id": "156",
+      "pedido_idx": 155,
+      "restaurante": "Piratas Lanches",
+      "prioridade": "2",
+      "valor_pedido": 87.12,
+      "tempo_entrega": 32.2910408429
+    },
+    {
+      "entregador_id": "E095",
+      "entregador_idx": 94,
+      "pedido_id": "223",
+      "pedido_idx": 222,
+      "restaurante": "Subway Santa Luzia",
+      "prioridade": "1",
+      "valor_pedido": 139.17,
+      "tempo_entrega": 49.8591567886
+    },
+    {
+      "entregador_id": "E097",
+      "entregador_idx": 96,
+      "pedido_id": "106",
+      "pedido_idx": 105,
+      "restaurante": "Açaí da Hora",
+      "prioridade": "2",
+      "valor_pedido": 123.14,
+      "tempo_entrega": 44.5388888892
+    },
+    {
+      "entregador_id": "E097",
+      "entregador_idx": 96,
+      "pedido_id": "131",
+      "pedido_idx": 130,
+      "restaurante": "Saladeria Express",
+      "prioridade": "1",
+      "valor_pedido": 148.32,
+      "tempo_entrega": 48.966049386
+    },
+    {
+      "entregador_id": "E098",
+      "entregador_idx": 97,
+      "pedido_id": "110",
+      "pedido_idx": 109,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "1",
+      "valor_pedido": 41.66,
+      "tempo_entrega": 39.3086445333
+    },
+    {
+      "entregador_id": "E098",
+      "entregador_idx": 97,
+      "pedido_id": "153",
+      "pedido_idx": 152,
+      "restaurante": "China in Box - Juiz de Fora",
+      "prioridade": "3",
+      "valor_pedido": 26.29,
+      "tempo_entrega": 39.6829875519
+    },
+    {
+      "entregador_id": "E098",
+      "entregador_idx": 97,
+      "pedido_id": "194",
+      "pedido_idx": 193,
+      "restaurante": "Sabores Antepastos",
+      "prioridade": "1",
+      "valor_pedido": 53.54,
+      "tempo_entrega": 38.4242738589
+    },
+    {
+      "entregador_id": "E098",
+      "entregador_idx": 97,
+      "pedido_id": "226",
+      "pedido_idx": 225,
+      "restaurante": "Sabor na Chapa",
+      "prioridade": "2",
+      "valor_pedido": 87.15,
+      "tempo_entrega": 21.6391424616
+    },
+    {
+      "entregador_id": "E100",
+      "entregador_idx": 99,
+      "pedido_id": "24",
+      "pedido_idx": 23,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "3",
+      "valor_pedido": 25.27,
+      "tempo_entrega": 70.92708333
+    },
+    {
+      "entregador_id": "E100",
+      "entregador_idx": 99,
+      "pedido_id": "61",
+      "pedido_idx": 60,
+      "restaurante": "Salgadier- Mini Salgados e lanches",
+      "prioridade": "2",
+      "valor_pedido": 74.68,
+      "tempo_entrega": 103.93645833
+    },
+    {
+      "entregador_id": "E100",
+      "entregador_idx": 99,
+      "pedido_id": "157",
+      "pedido_idx": 156,
+      "restaurante": "Padaria da Dona Joana",
+      "prioridade": "3",
+      "valor_pedido": 120.57,
+      "tempo_entrega": 69.1515625
+    },
+    {
+      "entregador_id": "E100",
+      "entregador_idx": 99,
+      "pedido_id": "176",
+      "pedido_idx": 175,
+      "restaurante": "Panelinha Comida Fit",
+      "prioridade": "3",
+      "valor_pedido": 146.78,
+      "tempo_entrega": 63.27395833
+    },
+    {
+      "entregador_id": "E100",
+      "entregador_idx": 99,
+      "pedido_id": "191",
+      "pedido_idx": 190,
+      "restaurante": "Brasileirinho Delivery",
+      "prioridade": "3",
+      "valor_pedido": 139.48,
+      "tempo_entrega": 70.30260417
+    }
+  ],
+  "num_entregadores_usados": 85,
+  "num_pedidos_alocados": 250,
+  "num_pedidos_total": 250,
+  "timestamp": "2025-08-11T15:47:22.820460",
+  "parametros": {
+    "num_entregadores": 100,
+    "num_pedidos": 250,
+    "num_restaurantes": 59
+  }
+}
