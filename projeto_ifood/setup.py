@@ -17,7 +17,8 @@ def instalar_dependencias():
         "numpy>=1.21.0", 
         "pulp>=2.7.0",
         "openpyxl>=3.0.0",
-        "xlrd>=2.0.0"
+        "xlrd>=2.0.0",
+        "geopy>=2.2.0",
     ]
     
     for dep in dependencias:

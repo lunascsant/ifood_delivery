@@ -25,20 +25,20 @@ def exemplo_completo():
         return
     
     # Preprocessar
-    print("2. Preprocessando dados...")
+    print("\n2. Preprocessando dados...")
     otimizador.preprocessar_dados()
     
     # Criar modelo
-    print("3. Criando modelo de otimização...")
+    print("\n3. Criando modelo de otimização...")
     otimizador.criar_modelo()
     
     # Resolver
-    print("4. Resolvendo modelo...")
+    print("\n4. Resolvendo modelo...")
     if otimizador.resolver_modelo():
-        print("5. Exportando resultados...")
+        print("\n5. Exportando resultados...")
         otimizador.exportar_resultados("resultado_exemplo.json")
         
-        print("6. Gerando relatório...")
+        print("\n6. Gerando relatório...")
         otimizador.gerar_relatorio()
         
         print("\n✓ Exemplo executado com sucesso!")

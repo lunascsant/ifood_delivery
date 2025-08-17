@@ -3,7 +3,9 @@ import numpy as np
 from pulp import *
 import json
 from datetime import datetime
-import os
+from geopy.geocoders import Nominatim 
+from geopy.extra.rate_limiter import RateLimiter
+from math import radians, sin, cos, sqrt, atan2 
 
 class IFoodDeliveryOptimizer:
     def __init__(self):
@@ -16,6 +18,15 @@ class IFoodDeliveryOptimizer:
         self.pedidos = None
         self.modelo = None
         self.resultado = None
+
+        # Inicializa o geolocator e o cache de CEPs
+        # O geolocator converte endereços em coordenadas
+        # O user_agent é importante para identificar sua aplicação
+        self.geolocator = Nominatim(user_agent="ifood_optimizer_jf")
+        # O RateLimiter evita sobrecarregar a API com muitas requisições
+        self.geocode = RateLimiter(self.geolocator.geocode, min_delay_seconds=1)
+        # Cache para guardar coordenadas de CEPs já consultados
+        self.cep_cache = {} 
         
     def carregar_dados(self, arquivo_restaurantes, arquivo_entregadores, arquivo_pedidos):
         """
@@ -174,6 +185,9 @@ class IFoodDeliveryOptimizer:
             print("❌ ERRO: Nenhum entregador válido após preprocessamento!")
             return False
         
+        # Atallho para fazer pesquisa do CEP do restaurante. Menos custoso.
+        self.mapa_restaurante_cep = self.restaurantes.set_index('Restaurante')['CEP'].to_dict()
+        
         return True
         
     def calcular_tempo_deslocamento(self, entregador_idx, pedido_idx):
@@ -188,6 +202,94 @@ class IFoodDeliveryOptimizer:
         tempo_deslocamento = (distancia_estimada / velocidade) * 60
         return tempo_deslocamento
     
+    def obter_coordenadas_por_cep(self, cep):
+        """
+        Busca as coordenadas de um CEP diretamente.
+        Utiliza um cache para evitar requisições repetidas.
+        """
+        cep = str(cep).strip().replace('-', '')
+        if cep in self.cep_cache:
+            return self.cep_cache[cep]
+
+        try:
+            # Adicionamos ", Juiz de Fora, Brazil" para dar mais contexto ao geocoder
+            query = f"{cep}, Juiz de Fora, Brazil" 
+            
+            # Chama o geocoder diretamente com o CEP
+            location = self.geocode(query)
+            
+            if location:
+                coords = (location.latitude, location.longitude)
+                self.cep_cache[cep] = coords # Armazena sucesso no cache
+                return coords
+            else:
+                print(f"Não foi possível obter coordenadas para o CEP: {cep}")
+                self.cep_cache[cep] = None # Armazena falha no cache
+                return None
+
+        except Exception as e:
+            print(f"Ocorreu um erro ao buscar o CEP {cep}: {e}")
+            self.cep_cache[cep] = None
+            return None
+
+
+    def calcular_tempo_entregador_restaurante(self, entregador_idx, pedido_idx):
+        """
+        Função auxiliar para calcular o tempo de deslocamento (em minutos) 
+        de um entregador até o restaurante de um pedido.
+        Retorna um valor alto em caso de falha para penalizar a alocação.
+        """
+        # Obter dados do entregador
+        entregador = self.entregadores.iloc[entregador_idx]
+        cep_entregador = entregador['Endereço (CEP)']
+        velocidade_kmh = entregador['Velocidade Média (km/h)']
+        
+        # Obter dados do restaurante do pedido
+        nome_restaurante = self.pedidos.iloc[pedido_idx]['nome_restaurante']
+        cep_restaurante = self.mapa_restaurante_cep.get(nome_restaurante)
+
+        # Obter coordenadas
+        coords_entregador = self.obter_coordenadas_por_cep(cep_entregador)
+        coords_restaurante = self.obter_coordenadas_por_cep(cep_restaurante)
+
+        if not coords_entregador or not coords_restaurante:
+            return 9999  # Penalidade alta se não encontrar coordenadas
+
+        # Calcular distância e tempo
+        distancia_km = self.calcular_distancia_coordenadas(coords_entregador, coords_restaurante)
+        
+        if velocidade_kmh == 0:
+            return 9999 # Evitar divisão por zero
+
+        tempo_em_minutos = (distancia_km / velocidade_kmh) * 60
+        return tempo_em_minutos
+
+
+    def calcular_distancia_coordenadas(self, coords1, coords2):
+        """
+        Calcula a distância em linha reta (km) entre duas coordenadas.
+        A distância de Haversine é uma fórmula para calcular a distância entre dois pontos na superfície da Terra, 
+        utilizando suas coordenadas de latitude e longitude.
+        """
+
+        if not coords1 or not coords2:
+            return 999 # Retorna uma distância grande se as coordenadas não forem válidas
+        
+        R = 6371.0  # Raio da Terra em km
+        lat1, lon1 = coords1
+        lat2, lon2 = coords2
+
+        lat1_rad, lon1_rad = radians(lat1), radians(lon1)
+        lat2_rad, lon2_rad = radians(lat2), radians(lon2)
+
+        dlon = lon2_rad - lon1_rad
+        dlat = lat2_rad - lat1_rad
+
+        a = sin(dlat / 2)**2 + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2)**2
+        c = 2 * atan2(sqrt(a), sqrt(1 - a))
+        return R * c
+
+
     def criar_modelo(self):
         """
         Cria o modelo de programação linear baseado na formulação matemática
@@ -234,12 +336,36 @@ class IFoodDeliveryOptimizer:
             ])
             
             self.modelo += T[j] == tempo_total_expr, f"Calculo_Tempo_Pedido_{j}"
+
+
+        # R2: Cálculo do tempo de entrega    
+        # Rodar essa restrição apenas se tiver internet
+        # print("Pré-calculando tempos de deslocamento Entregador -> Restaurante ...")
+        # tempos_er = {} # Dicionário para armazenar os tempos t_ij^ER
+        # for i in I:
+        #     for j in J:
+        #         tempos_er[i, j] = self.calcular_tempo_entregador_restaurante(i, j)
+
+        # for j in J:
+        #     # Obter tempos fixos do pedido
+        #     tempo_preparo = self.pedidos.iloc[j]['tempo_preparo_min']
+        #     tempo_deslocamento_cliente = self.pedidos.iloc[j]['tempo_deslocamento_min']
+        #     
+        #     # TempoTotal = Soma(x_ij * (Tempo_Calculado + Tempo_Preparo + Tempo_Entrega_Final))
+        #     tempo_total_expr = lpSum([
+        #         x[i, j] * (tempos_er[i, j] + tempo_preparo + tempo_deslocamento_cliente)
+        #         for i in I
+        #     ])
+        #     
+        #     self.modelo += T[j] == tempo_total_expr, f"Calculo_Tempo_Pedido_{j}"
+
         
         # R3: Capacidade máxima dos entregadores
+        # Se inserirmos a disponibilidade aqui, o modelo fica inviável
         for i in I:
             capacidade_max = self.entregadores.iloc[i]['Capacidade Máxima']
             self.modelo += lpSum([x[i,j] for j in J]) <= capacidade_max, f"Capacidade_Entregador_{i}"
-        
+
         # R4: Prioridade dos pedidos (peso na função objetivo)
         # Pedidos prioritários recebem peso maior no tempo
         objetivo_ponderado = lpSum([
